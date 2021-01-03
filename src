@@ -1,0 +1,808 @@
+import React from 'react'
+import './Header.css'
+
+
+
+function Header() {
+    return (
+        <div className='header'>
+            <img className="header__logo" alt="my__logo"
+                src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5c06a15b95c700eebb7b9823_headerLockup_2x.png"></img>
+
+                <div>
+                    <body data-new-gr-c-s-check-loaded="14.990.0" data-gr-ext-installed>
+                        <div class="page-wrapper home" data-ix="page-load" style="opacity: 1; transition: opacity 200ms ease 0s;">
+                            <div class="home-banner">
+                                <div class="banner">
+                                    <h4 class="white-text">
+                                        <strong class="bold-text-3">Our reimagining of what a CRM&nbsp;should be</strong>
+                                    </h4>
+                                    <div class="html-embed w-embed">
+                                        <a href="https://www.producthunt.com/posts/streak-3-2?utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_souce=badge-streak-3-2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=225073&amp;theme=dark&amp;period=daily" alt="Streak 3 - The " low-work="" crm inside gmail  product hunt embed style="width: 250px; height: 54px;" width="250px" height="54px"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="navbar-wrap">
+                                <div data-w-id="7163ca45-7381-479b-781a-fb9441c2d40f" class="show-nav-shdow"></div>
+                                <div data-collapse="small" data-animation="default" data-duration="400" data-easing="ease-in-out" role="banner" class="navbar w-nav">
+                                    <div class="navbar-shadow" style="will-change: opacity; opacity: 1;"></div>
+                                    <div class="content-wrapper">
+                                        <a href="/" aria-current="page" class="nav-logo-link flex w-nav-brand w--current" aria-label="home">
+                                            <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5c06a15b95c700eebb7b9823_headerLockup_2x.png" alt='' class="nav-logo"></img>
+                                        </a>
+                                        <div class="google-cloud-nav">
+                                            <div id="w-node-3145fb808d4b-41c2d40e" class="nav-google-cloud-plus">+</div>
+                                            <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5c12915e337af7f44a6ca47a_cloud-logo.svg" id="w-node-83b8c3596fed-41c2d40e" alt="" class="nav-google-cloud-logo"></img>
+                                        </div>
+                                        <nav role="navigation" class="nav-menu w-nav-menu">
+                                            <a href="/features" id="nav-features-link" class="nav-link w-inline-block">
+                                                <div id="nav-features-text">Features</div>
+                                                <div class="nav-link-hover-line background-orange-gradient"></div>
+                                            </a>
+                                            <div data-hover="" data-delay="0" class="nav-dropdown w-dropdown">
+                                                <div class="nav-link dd w-dropdown-toggle" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                                                    <div class="w-icon-dropdown-toggle"></div>
+                                                    <div>LeaRn</div>
+                                                </div>
+                                                <nav class="dropdown-list w-dropdown-list" id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0">
+                                                    <div class="dd-list-lessons">
+                                                        <div class="dd-list-text">Get started with Streak for:</div>
+                                                        <div class="dd-list-cms w-dyn-list">
+                                                            <div role="list" class="dd-list-cms-list w-dyn-items">
+                                                                <div role="listitem" class="dd-list-cms-item w-dyn-item">
+                                                                    <a href="/deep-dive/sales" class="dd-list-link w-inline-block" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5f8e12da69a7acef1eb640a3_sales-icon.png" alt="" class="dd-list-link-icon"></img>
+                                                                        <div class="dd-list-link-text">Sales</div>
+                                                                    </a>
+                                                                    <a href="#" class="dd-list-link off w-inline-block w-condition-invisible" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5f8e12da69a7acef1eb640a3_sales-icon.png" alt="" class="dd-list-link-icon off"></img>
+                                                                        <div class="dd-list-link-text off">Sales</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div role="listitem" class="dd-list-cms-item w-dyn-item">
+                                                                    <a href="/deep-dive/support" class="dd-list-link w-inline-block" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5f8e12f6b2cd2c85e30a603d_support-icon.png" alt="" class="dd-list-link-icon"></img>
+                                                                            <div class="dd-list-link-text">Support</div>
+                                                                    </a>
+                                                                    <a href="#" class="dd-list-link off w-inline-block w-condition-invisible" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5f8e12f6b2cd2c85e30a603d_support-icon.png" alt="" class="dd-list-link-icon off"></img>
+                                                                        <div class="dd-list-link-text off">Support</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div role="listitem" class="dd-list-cms-item w-dyn-item">
+                                                                    <a href="/deep-dive/hiring" class="dd-list-link w-inline-block" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5f8e12e4bbb3672e720c1389_hiring-icon.png" alt="" class="dd-list-link-icon"></img>
+                                                                        <div class="dd-list-link-text">Hiring</div>
+                                                                    </a>
+                                                                    <a href="#" class="dd-list-link off w-inline-block w-condition-invisible" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5f8e12e4bbb3672e720c1389_hiring-icon.png" alt="" class="dd-list-link-icon off"></img>
+                                                                        <div class="dd-list-link-text off">Hiring</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div role="listitem" class="dd-list-cms-item w-dyn-item">
+                                                                    <a href="/deep-dive/project-management" class="dd-list-link w-inline-block" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5f8e13104ca5fc72032671b2_project-icon.png" alt="" class="dd-list-link-icon"></img>
+                                                                        <div class="dd-list-link-text">Project Management</div>
+                                                                    </a>
+                                                                    <a href="#" class="dd-list-link off w-inline-block w-condition-invisible" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5f8e13104ca5fc72032671b2_project-icon.png" alt="" class="dd-list-link-icon off"></img>
+                                                                        <div class="dd-list-link-text off">Project Management</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div role="listitem" class="dd-list-cms-item w-dyn-item">
+                                                                    <a href="/deep-dive/real-estate" class="dd-list-link w-inline-block w-condition-invisible" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5bcac8b2e34e5a5b517fba44_product.png" alt="" class="dd-list-link-icon"></img>
+                                                                        <div class="dd-list-link-text">Real Estate</div>
+                                                                    </a>
+                                                                    <a href="#" class="dd-list-link off w-inline-block" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5bcac8b2e34e5a5b517fba44_product.png" alt="" class="dd-list-link-icon off"></img>
+                                                                        <div class="dd-list-link-text off">Real Estate</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div role="listitem" class="dd-list-cms-item w-dyn-item">
+                                                                    <a href="/deep-dive/business-development" class="dd-list-link w-inline-block w-condition-invisible" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5f8e12fd4ca5fc0aa2267153_bizdev-icon.png" alt="" class="dd-list-link-icon"></img>
+                                                                        <div class="dd-list-link-text">Business Development</div>
+                                                                    </a>
+                                                                    <a href="#" class="dd-list-link off w-inline-block" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5f8e12fd4ca5fc0aa2267153_bizdev-icon.png" alt="" class="dd-list-link-icon off"></img>
+                                                                        <div class="dd-list-link-text off">Business Development</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div role="listitem" class="dd-list-cms-item w-dyn-item">
+                                                                    <a href="/deep-dive/fundraising" class="dd-list-link w-inline-block w-condition-invisible" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5f8e12ede66eab41bc7cf28a_fundraising-icon.png" alt="" class="dd-list-link-icon"></img>
+                                                                        <div class="dd-list-link-text">Fundraising</div>
+                                                                    </a>
+                                                                    <a href="#" class="dd-list-link off w-inline-block" tabindex="0">
+                                                                        <img loading="lazy" src="https://assets-global.website-files.com/5b7f24cc900973de13d7beb4/5f8e12ede66eab41bc7cf28a_fundraising-icon.png" alt="" class="dd-list-link-icon off"></img>
+                                                                        <div class="dd-list-link-text off">Fundraising</div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="dd-list-block">
+                                                        <a href="/university/welcome-to-streak" class="dd-list-link w-inline-block" tabindex="0">
+                                                            <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5bb2b3d3ec67f8363f717847_eng-icon-7.png" loading="lazy" alt="" class="dd-list-link-icon"></img>
+                                                            <div class="dd-list-link-text">University</div>
+                                                        </a>
+                                                        <a href="https://support.streak.com" class="dd-list-link w-inline-block" tabindex="0">
+                                                            <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5bb2b3d3ec67f8179a717848_eng-icon-8.png" loading="lazy" alt="" class="dd-list-link-icon"></img>
+                                                            <div class="dd-list-link-text">Knowledge Base</div>
+                                                        </a>
+                                                        <a href="https://blog.streak.com" class="dd-list-link w-inline-block" tabindex="0">
+                                                            <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ab2dc77823aeb62bc38a1_projectMgmt.svg" loading="lazy" alt="" class="dd-list-link-icon"></img>
+                                                            <div class="dd-list-link-text">Blog</div>
+                                                        </a>
+                                                        <a id="chat-us-btn" href="#" class="dd-list-link w-inline-block" tabindex="0">
+                                                            <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5bb272f026062b516c273563_careers-meet-team-icon-2.png" loading="lazy" alt="" class="dd-list-link-icon"></img>
+                                                            <div class="dd-list-link-text">Chat with Us</div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="nav-embed w-embed w-script">
+                                                        <script>
+	                                                        document.querySelector('#chat-us-btn').onclick = function(){
+  		                                                        Intercom('showNewMessage');
+                                                            }
+                                                        </script>
+                                                    </div>
+                                                    <div class="dropdown-icon"></div>
+                                                </nav>
+                                            </div>
+                                            <a href="/pricing" id="nav-pricing-link" class="nav-link space-right w-inline-block">
+                                                <div id="nav-pricing-text">Pricing</div>
+                                                <div class="nav-link-hover-line background-orange-gradient"></div>
+                                            </a>
+                                            <a href="https://mail.google.com" id="nav-addtochrome-btn" class="button orange-cta cta w-inline-block installed">Installed! Go to Gmail ⟶</a>
+                                            <div class="gray-section-line mobile-only"></div>
+                                        </nav>
+                                        <div class="nav-menu-button w-nav-button" data-ix="nav-mobile-menu" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
+                                            <div class="nav-mobile-menu-line nav-line-top"></div>
+                                            <div class="nav-mobile-menu-line nav-line-middle"></div>
+                                            <div class="nav-mobile-menu-line nav-line-bottom"></div>
+                                        </div>
+                                        <a href="/university/welcome-to-streak" class="nav-text"></a>
+                                    </div>
+                                    <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-container swiper-container-fade swiper-container-horizontal">
+                                <div class="home-slider swiper-wrapper" style="transition-duration: 0ms;">
+                                    <div class="home-hero-slide swiper-slide" style="width: 134px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                                        <div class="margin-80 tablet-margin-48 mobile-margin-16">
+                                            <div class="content-wrapper">
+                                                <div class="home-hero-section">
+                                                    <div class="hero-content-left">
+                                                        <div class="margin-48 tablet-margin-24 mobile-margin-40">
+                                                            <div class="home-hero-title-row">
+                                                                <h2 class="h1-to-h2">Manage</h2>
+                                                                <div class="home-hero-typed-wrapper">
+                                                                    <h2 id="leads" class="home-hero-text-change h1-to-h2"></h2>
+                                                                    <div class="home-hero-slide-transition-overlay"></div>
+                                                                </div>
+                                                            </div>
+                                                            <h2 class="h1-to-h2">from Gmail</h2>
+                                                        </div>
+                                                        <div class="margin-32">
+                                                            <a href="https://mail.google.com" class="button _2-button-spacing home-hero cta add-to-gmail-btn w-inline-block installed">Installed! Go to Gmail ⟶</a>
+                                                            <a href="/features" class="button outline view-use-cases-btn w-inline-block">
+                                                                <div class="view-use-cases-text">View Use cases</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hero-content-right">
+                                                    <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd02720bbbedd536f146_sales%402x.png" id="home-hero-graphic1" alt="" class="home-hero-graphic first-home-hero-graphic"></img>
+                                                    <div class="home-hero-slide-transition-overlay"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="home-under-hero-section">
+                                        <div class="content-wrapper">
+                                            <div class="img-left-section">
+                                                <div class="home-hero-screenshot-wrapper">
+                                                    <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank"></img>
+                                                    <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5d7170e24df04f2c8979319b_BisDev.png" sizes="(max-width: 479px) 93vw, (max-width: 767px) 94vw, 544px" srcset="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5d7170e24df04f2c8979319b_BisDev-p-500.png 500w, https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5d7170e24df04f2c8979319b_BisDev-p-800.png 800w, https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5d7170e24df04f2c8979319b_BisDev-p-1080.png 1080w, https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5d7170e24df04f2c8979319b_BisDev.png 1088w" alt="" class="home-hero-screenshot-pipeline"></img>
+                                                </div>
+                                                <div class="features-above-tabs-content home-hero">
+                                                    <div class="margin-80 tablet-margin-48">
+                                                        <h6 class="text-white-70">CRM built into Gmail</h6>
+                                                    </div>
+                                                    <div class="margin-4">
+                                                        <h2 class="text-white">Keep your pipeline moving</h2>
+                                                    </div>
+                                                    <div class="margin-16">
+                                                        <p class="text-white">
+                                                            "Set up and customize a perfect process for your team no matter the use case or how you work"
+                                                        </p>
+                                                    </div>
+                                                    <div class="margin-16">
+                                                        <ul role="list" class="white-text">
+                                                            <li>
+                                                                <p>As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>
+                                                                    "Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks"
+                                                                </p>
+                                                            </li>
+                                                            <li>
+                                                                <p>See upcoming tasks across all your pipelines</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="margin-16">
+                                                        <a href="/features" class="button transparent-icon-dark w-inline-block">
+                                                            <div class="button-with-icon-text">View all Features</div>
+                                                            <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt=""></img>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split"></img>
+                                    </div>
+                                </div>
+                                <div class="home-hero-slide swiper-slide" style="width: 134px; opacity: 1; transform: translate3d(-134px, 0px, 0px); transition-duration: 0ms;">
+                                    <div class="margin-80 tablet-margin-48 mobile-margin-16">
+                                        <div class="content-wrapper">
+                                            <div class="home-hero-section">
+                                                <div class="hero-content-left">
+                                                    <div class="margin-48 tablet-margin-24 mobile-margin-40">
+                                                        <div class="home-hero-title-row">
+                                                            <h2 class="h1-to-h2">Manage</h2>
+                                                            <div class="home-hero-typed-wrapper">
+                                                                <h2 id="projects" class="home-hero-text-change h1-to-h2">
+                                                                    ::after
+                                                                </h2>
+                                                                <div class="home-hero-slide-transition-overlay"></div>
+                                                            </div>
+                                                        </div>
+                                                        <h2 class="h1-to-h2">from Gmail</h2>
+                                                    </div>
+                                                    <div class="margin-32">
+                                                        <a href="https://mail.google.com" class="button _2-button-spacing home-hero cta add-to-gmail-btn w-inline-block installed">Installed! Go to Gmail ⟶</a>
+                                                        <a href="/features" class="button outline view-use-cases-btn w-inline-block">
+                                                            <div class="view-use-cases-text">View Use cases</div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="hero-content-right">
+                                                    <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd00d1ecf5f0f7f5a679_project%402x.png" id="home-hero-graphic2" alt="" class="home-hero-graphic"></img>
+                                                    <div class="home-hero-slide-transition-overlay"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="home-under-hero-section">
+                                        <div class="content-wrapper">
+                                            <div class="img-left-section">
+                                                <div class="home-hero-screenshot-wrapper">
+                                                    <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank"></img>
+                                                    <img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebef4d1ecf56c8ef5a75f_ProjectMgmt.png" alt="" class="home-hero-screenshot-pipeline"></img>
+                                                </div>
+                                                <div class="features-above-tabs-content home-hero">
+                                                    <div class="margin-80 tablet-margin-48">
+                                                        <h6 class="text-white-70">CRM built into Gmail</h6>
+                                                    </div>
+                                                    <div class="margin-4">
+                                                        <h2 class="text-white">Keep your pipeline moving</h2>
+                                                    </div>
+                                                    <div class="margin-16">
+                                                        <p class="text-white">
+                                                            "Set up and customize a perfect process for your team no matter the use case or how you work"
+                                                        </p>
+                                                    </div>
+                                                    <div class="margin-16">
+                                                        <ul role="list" class="white-text">
+                                                            <li>
+                                                                <p>As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p>
+                                                            </li>
+                                                            <li><p>Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks</p></li><li><p>See upcoming tasks across all your pipelines</p></li></ul></div><div class="margin-16"><a href="/features" class="button transparent-icon-dark w-inline-block"><div class="button-with-icon-text">View all Features</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt=""></a></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split"></div></div><div class="home-hero-slide swiper-slide" style="width: 134px; opacity: 1; transform: translate3d(-268px, 0px, 0px); transition-duration: 0ms;"><div class="margin-80 tablet-margin-48 mobile-margin-16"><div class="content-wrapper"><div class="home-hero-section"><div class="hero-content-left"><div class="margin-48 tablet-margin-24 mobile-margin-40"><div class="home-hero-title-row"><h2 class="h1-to-h2">Manage</h2><div class="home-hero-typed-wrapper"><h2 id="partners" class="home-hero-text-change h1-to-h2"></h2><div class="home-hero-slide-transition-overlay"></div></div></div><h2 class="h1-to-h2">from Gmail</h2></div><div class="margin-32"><a href="https://mail.google.com" class="button _2-button-spacing home-hero cta add-to-gmail-btn w-inline-block installed">Installed! Go to Gmail ⟶</a><a href="/features" class="button outline view-use-cases-btn w-inline-block"><div class="view-use-cases-text">View Use cases</div></a></div></div><div class="hero-content-right"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd019c975e2ee901cb6e_bizDev%402x.png" id="home-hero-graphic3" alt="" class="home-hero-graphic"><div class="home-hero-slide-transition-overlay"></div></div></div></div></div><div class="home-under-hero-section"><div class="content-wrapper"><div class="img-left-section"><div class="home-hero-screenshot-wrapper"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebef4d1ecf5529cf5a75e_BisDev.png" alt="" class="home-hero-screenshot-pipeline"></div><div class="features-above-tabs-content home-hero"><div class="margin-80 tablet-margin-48"><h6 class="text-white-70">CRM built into Gmail</h6></div><div class="margin-4"><h2 class="text-white">Keep your pipeline moving</h2></div><div class="margin-16"><p class="text-white">Set up and customize a perfect process for your team no matter the use case or how you work</p></div><div class="margin-16"><ul role="list" class="white-text"><li><p>As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p></li><li><p>Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks</p></li><li><p>See upcoming tasks across all your pipelines</p></li></ul></div><div class="margin-16"><a href="/features" class="button transparent-icon-dark w-inline-block"><div class="button-with-icon-text">View all Features</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt=""></a></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split"></div></div><div class="home-hero-slide swiper-slide" style="width: 134px; opacity: 1; transform: translate3d(-402px, 0px, 0px); transition-duration: 0ms;"><div class="margin-80 tablet-margin-48 mobile-margin-16"><div class="content-wrapper"><div class="home-hero-section"><div class="hero-content-left"><div class="margin-48 tablet-margin-24 mobile-margin-40"><div class="home-hero-title-row"><h2 class="h1-to-h2">Manage</h2><div class="home-hero-typed-wrapper"><h2 id="investors" class="home-hero-text-change h1-to-h2"></h2><div class="home-hero-slide-transition-overlay"></div></div></div><h2 class="h1-to-h2">from Gmail</h2></div><div class="margin-32"><a href="https://mail.google.com" class="button _2-button-spacing home-hero cta add-to-gmail-btn w-inline-block installed">Installed! Go to Gmail ⟶</a><a href="/features" class="button outline view-use-cases-btn w-inline-block"><div class="view-use-cases-text">View Use cases</div></a></div></div><div class="hero-content-right"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd00a0a17b3b463bb46c_fundraising%402x.png" alt="" class="home-hero-graphic"><div class="home-hero-slide-transition-overlay"></div></div></div></div></div><div class="home-under-hero-section"><div class="content-wrapper"><div class="img-left-section"><div class="home-hero-screenshot-wrapper"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebef4585945365f45458e_Fundraising.png" alt="" class="home-hero-screenshot-pipeline"></div><div class="features-above-tabs-content home-hero"><div class="margin-80 tablet-margin-48"><h6 class="text-white-70">CRM built into Gmail</h6></div><div class="margin-4"><h2 class="text-white">Keep your pipeline moving</h2></div><div class="margin-16"><p class="text-white">Set up and customize a perfect process for your team no matter the use case or how you work</p></div><div class="margin-16"><ul role="list" class="white-text"><li><p>As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p></li><li><p>Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks</p></li><li><p>See upcoming tasks across all your pipelines</p></li></ul></div><div class="margin-16"><a href="/features" class="button transparent-icon-dark w-inline-block"><div class="button-with-icon-text">View all Features</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt=""></a></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split"></div></div><div class="home-hero-slide swiper-slide" style="width: 134px; opacity: 1; transform: translate3d(-536px, 0px, 0px); transition-duration: 0ms;"><div class="margin-80 tablet-margin-48 mobile-margin-16"><div class="content-wrapper"><div class="home-hero-section"><div class="hero-content-left"><div class="margin-48 tablet-margin-24 mobile-margin-40"><div class="home-hero-title-row"><h2 class="h1-to-h2">Manage</h2><div class="home-hero-typed-wrapper"><h2 id="support_tickets" class="home-hero-text-change h1-to-h2"></h2><div class="home-hero-slide-transition-overlay"></div></div></div><h2 class="h1-to-h2">from Gmail</h2></div><div class="margin-32"><a href="https://mail.google.com" class="button _2-button-spacing home-hero cta add-to-gmail-btn w-inline-block installed">Installed! Go to Gmail ⟶</a><a href="/features" class="button outline view-use-cases-btn w-inline-block"><div class="view-use-cases-text">View Use cases</div></a></div></div><div class="hero-content-right"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd02c5586e132b61921b_support%402x.png" sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, 544px" srcset="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd02c5586e132b61921b_support%402x-p-500.png 500w, https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd02c5586e132b61921b_support%402x.png 1089w" alt="" class="home-hero-graphic"><div class="home-hero-slide-transition-overlay"></div></div></div></div></div><div class="home-under-hero-section"><div class="content-wrapper"><div class="img-left-section"><div class="home-hero-screenshot-wrapper"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebef4585945b57945458f_Support.png" alt="" class="home-hero-screenshot-pipeline"></div><div class="features-above-tabs-content home-hero"><div class="margin-80 tablet-margin-48"><h6 class="text-white-70">CRM built into Gmail</h6></div><div class="margin-4"><h2 class="text-white">Keep your pipeline moving</h2></div><div class="margin-16"><p class="text-white">Set up and customize a perfect process for your team no matter the use case or how you work</p></div><div class="margin-16"><ul role="list" class="white-text"><li><p>As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p></li><li><p>Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks</p></li><li><p>See upcoming tasks across all your pipelines</p></li></ul></div><div class="margin-16"><a href="/features" class="button transparent-icon-dark w-inline-block"><div class="button-with-icon-text">View all Features</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt=""></a></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split"></div></div><div class="home-hero-slide swiper-slide swiper-slide-prev" style="width: 134px; opacity: 1; transform: translate3d(-670px, 0px, 0px); transition-duration: 0ms;"><div class="margin-80 tablet-margin-48 mobile-margin-16"><div class="content-wrapper"><div class="home-hero-section"><div class="hero-content-left"><div class="margin-48 tablet-margin-24 mobile-margin-40"><div class="home-hero-title-row"><h2 class="h1-to-h2">Manage</h2><div class="home-hero-typed-wrapper"><h2 id="candidates" class="home-hero-text-change h1-to-h2"></h2><div class="home-hero-slide-transition-overlay"></div></div></div><h2 class="h1-to-h2">from Gmail</h2></div><div class="margin-32"><a href="https://mail.google.com" class="button _2-button-spacing home-hero cta add-to-gmail-btn w-inline-block installed">Installed! Go to Gmail ⟶</a><a href="/features" class="button outline view-use-cases-btn w-inline-block"><div class="view-use-cases-text">View Use cases</div></a></div></div><div class="hero-content-right"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd025859457a8c45442e_hiring%402x.png" alt="" class="home-hero-graphic"><div class="home-hero-slide-transition-overlay"></div></div></div></div></div><div class="home-under-hero-section"><div class="content-wrapper"><div class="img-left-section"><div class="home-hero-screenshot-wrapper"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebef6585945570f454591_Hiring.png" alt="" class="home-hero-screenshot-pipeline"></div><div class="features-above-tabs-content home-hero"><div class="margin-80 tablet-margin-48"><h6 class="text-white-70">CRM built into Gmail</h6></div><div class="margin-4"><h2 class="text-white">Keep your pipeline moving</h2></div><div class="margin-16"><p class="text-white">Set up and customize a perfect process for your team no matter the use case or how you work</p></div><div class="margin-16"><ul role="list" class="white-text"><li><p>As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p></li><li><p>Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks</p></li><li><p>See upcoming tasks across all your pipelines</p></li></ul></div><div class="margin-16"><a href="/features" class="button transparent-icon-dark w-inline-block"><div class="button-with-icon-text">View all Features</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt=""></a></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split"></div></div><div class="home-hero-slide swiper-slide swiper-slide-active" style="width: 134px; opacity: 1; transform: translate3d(-804px, 0px, 0px); transition-duration: 0ms;"><div class="margin-80 tablet-margin-48 mobile-margin-16"><div class="content-wrapper"><div class="home-hero-section"><div class="hero-content-left"><div class="margin-48 tablet-margin-24 mobile-margin-40"><div class="home-hero-title-row"><h2 class="h1-to-h2">Manage</h2><div class="home-hero-typed-wrapper"><h2 id="buyers_sellers" class="home-hero-text-change h1-to-h2">buyers &amp; sellers</h2><div class="home-hero-slide-transition-overlay"></div></div></div><h2 class="h1-to-h2">from Gmail</h2></div><div class="margin-32"><a href="https://mail.google.com" class="button _2-button-spacing home-hero cta add-to-gmail-btn w-inline-block installed">Installed! Go to Gmail ⟶</a><a href="/features" class="button outline view-use-cases-btn w-inline-block"><div class="view-use-cases-text">View Use cases</div></a></div></div><div class="hero-content-right"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd004180d5d59bec89d0_realEstate%402x.png" alt="" class="home-hero-graphic home-hero-graphic-change"><div class="home-hero-slide-transition-overlay"></div></div></div></div></div><div class="home-under-hero-section"><div class="content-wrapper"><div class="img-left-section"><div class="home-hero-screenshot-wrapper"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebef64180d5336aec8ad8_RealEstate.png" alt="" class="home-hero-screenshot-pipeline"></div><div class="features-above-tabs-content home-hero"><div class="margin-80 tablet-margin-48"><h6 class="text-white-70">CRM built into Gmail</h6></div><div class="margin-4"><h2 class="text-white">Keep your pipeline moving</h2></div><div class="margin-16"><p class="text-white">Set up and customize a perfect process for your team no matter the use case or how you work</p></div><div class="margin-16"><ul role="list" class="white-text"><li><p>As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p></li><li><p>Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks</p></li><li><p>See upcoming tasks across all your pipelines</p></li></ul></div><div class="margin-16"><a href="/features" class="button transparent-icon-dark w-inline-block"><div class="button-with-icon-text">View all Features</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt=""></a></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split"></div></div></div><div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 7"></span></div><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div><div data-delay="4000" data-animation="fade" data-autoplay="1" data-disable-swipe="1" data-duration="1200" data-infinite="1" class="home-hero-slider old w-slider" role="region" aria-label="carousel" style=""><div class="home-sliders-mask-prevent-click w-slider-mask" id="w-slider-mask-0"><div class="home-hero-slide w-slide" data-ix="home-hero-animation" aria-label="1 of 7" role="group" style="transform: translateX(-890.4px); opacity: 1; z-index: 385; visibility: hidden;" aria-hidden="true"><div class="margin-80 tablet-margin-48 mobile-margin-16" aria-hidden="true"><div class="content-wrapper" aria-hidden="true"><div class="home-hero-section" aria-hidden="true"><div class="hero-content-left" aria-hidden="true"><div class="margin-48 tablet-margin-24 mobile-margin-40" aria-hidden="true"><div class="home-hero-title-row" aria-hidden="true"><h2 class="h1-to-h2" aria-hidden="true">Manage</h2><div class="home-hero-typed-wrapper" aria-hidden="true"><h2 class="home-hero-text-change h1-to-h2" aria-hidden="true" style="opacity: 1;">leads</h2><div class="home-hero-slide-transition-overlay" aria-hidden="true"></div></div></div><h2 class="h1-to-h2" aria-hidden="true">from Gmail</h2></div><div class="margin-32" aria-hidden="true"><a href="https://mail.google.com" class="button _2-button-spacing cta w-inline-block installed" tabindex="-1" aria-hidden="true">Installed! Go to Gmail ⟶</a><a href="/features" class="button outline w-inline-block" tabindex="-1" aria-hidden="true"><div aria-hidden="true">View Use cases</div></a></div></div><div class="hero-content-right" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd02720bbbedd536f146_sales%402x.png" id="home-hero-graphic1" alt="" class="home-hero-graphic" aria-hidden="true" style="transition: all 0.15s cubic-bezier(0.4, 0, 1, 1) 0s; opacity: 1;"><div class="home-hero-slide-transition-overlay" aria-hidden="true"></div></div></div></div></div><div class="home-under-hero-section" aria-hidden="true"><div class="content-wrapper" aria-hidden="true"><div class="img-left-section" aria-hidden="true"><div class="home-hero-screenshot-wrapper" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebef6d1ecf5f3dcf5a760_Sales.png" alt="" class="home-hero-screenshot-pipeline" aria-hidden="true" style="transition: opacity 0ms ease 0s; opacity: 1;"></div><div class="features-above-tabs-content home-hero" aria-hidden="true"><div class="margin-80 tablet-margin-48" aria-hidden="true"><h6 class="text-white-70" aria-hidden="true">CRM built into Gmail</h6></div><div class="margin-4" aria-hidden="true"><h2 class="text-white" aria-hidden="true">Keep your pipeline moving</h2></div><div class="margin-16" aria-hidden="true"><p class="text-white" aria-hidden="true">Set up and customize a perfect process for your team no matter the use case or how you work</p></div><div class="margin-16" aria-hidden="true"><ul role="list" class="white-text" aria-hidden="true"><li aria-hidden="true"><p aria-hidden="true">As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p></li><li aria-hidden="true"><p aria-hidden="true">Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks</p></li><li aria-hidden="true"><p aria-hidden="true">See upcoming tasks across all your pipelines</p></li></ul></div><div class="margin-16" aria-hidden="true"><a href="/features" class="button transparent-icon-dark w-inline-block" tabindex="-1" aria-hidden="true"><div class="button-with-icon-text" aria-hidden="true">View all Features</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt="" aria-hidden="true"></a></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split" aria-hidden="true"></div></div><div class="home-hero-slide w-slide" data-ix="home-hero-animation" aria-label="2 of 7" role="group" style="transform: translateX(-890.4px); opacity: 1; z-index: 386;" aria-hidden="true"><div class="margin-80 tablet-margin-48 mobile-margin-16" aria-hidden="true"><div class="content-wrapper" aria-hidden="true"><div class="home-hero-section" aria-hidden="true"><div class="hero-content-left" aria-hidden="true"><div class="margin-48 tablet-margin-24 mobile-margin-40" aria-hidden="true"><div class="home-hero-title-row" aria-hidden="true"><h2 class="h1-to-h2" aria-hidden="true">Manage</h2><div class="home-hero-typed-wrapper" aria-hidden="true"><h2 class="home-hero-text-change h1-to-h2" aria-hidden="true" style="opacity: 1;">projects</h2><div class="home-hero-slide-transition-overlay" aria-hidden="true"></div></div></div><h2 class="h1-to-h2" aria-hidden="true">from Gmail</h2></div><div class="margin-32" aria-hidden="true"><a href="https://mail.google.com" class="button _2-button-spacing cta w-inline-block installed" tabindex="-1" aria-hidden="true">Installed! Go to Gmail ⟶</a><a href="/features" class="button outline w-inline-block" tabindex="-1" aria-hidden="true"><div aria-hidden="true">View Use cases</div></a></div></div><div class="hero-content-right" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd00d1ecf5f0f7f5a679_project%402x.png" id="home-hero-graphic2" alt="" class="home-hero-graphic" aria-hidden="true" style="transition: all 0.15s cubic-bezier(0.4, 0, 1, 1) 0s; opacity: 1;"><div class="home-hero-slide-transition-overlay" aria-hidden="true"></div></div></div></div></div><div class="home-under-hero-section" aria-hidden="true"><div class="content-wrapper" aria-hidden="true"><div class="img-left-section" aria-hidden="true"><div class="home-hero-screenshot-wrapper" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebef4d1ecf56c8ef5a75f_ProjectMgmt.png" alt="" class="home-hero-screenshot-pipeline" aria-hidden="true" style="transition: opacity 0ms ease 0s; opacity: 0;"></div><div class="features-above-tabs-content home-hero" aria-hidden="true"><div class="margin-80 tablet-margin-48" aria-hidden="true"><h6 class="text-white-70" aria-hidden="true">CRM built into Gmail</h6></div><div class="margin-4" aria-hidden="true"><h2 class="text-white" aria-hidden="true">Keep your pipeline moving</h2></div><div class="margin-16" aria-hidden="true"><p class="text-white" aria-hidden="true">Set up and customize a perfect process for your team no matter the use case or how you work</p></div><div class="margin-16" aria-hidden="true"><ul role="list" class="white-text" aria-hidden="true"><li aria-hidden="true"><p aria-hidden="true">As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p></li><li aria-hidden="true"><p aria-hidden="true">Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks</p></li><li aria-hidden="true"><p aria-hidden="true">See upcoming tasks across all your pipelines</p></li></ul></div><div class="margin-16" aria-hidden="true"><a href="/features" class="button transparent-icon-dark w-inline-block" tabindex="-1" aria-hidden="true"><div class="button-with-icon-text" aria-hidden="true">View all Features</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt="" aria-hidden="true"></a></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split" aria-hidden="true"></div></div><div class="home-hero-slide w-slide" data-ix="home-hero-animation" aria-label="3 of 7" role="group" style="transform: translateX(-1780.8px); opacity: 1; z-index: 387; transition: opacity 1200ms ease 0s;"><div class="margin-80 tablet-margin-48 mobile-margin-16"><div class="content-wrapper"><div class="home-hero-section"><div class="hero-content-left"><div class="margin-48 tablet-margin-24 mobile-margin-40"><div class="home-hero-title-row"><h2 class="h1-to-h2">Manage</h2><div class="home-hero-typed-wrapper"><h2 class="home-hero-text-change h1-to-h2" style="opacity: 1;">partners</h2><div class="home-hero-slide-transition-overlay"></div></div></div><h2 class="h1-to-h2">from Gmail</h2></div><div class="margin-32"><a href="https://mail.google.com" class="button _2-button-spacing cta w-inline-block installed">Installed! Go to Gmail ⟶</a><a href="/features" class="button outline w-inline-block"><div>View Use cases</div></a></div></div><div class="hero-content-right"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd019c975e2ee901cb6e_bizDev%402x.png" id="home-hero-graphic3" alt="" class="home-hero-graphic" style="transition: all 0.15s cubic-bezier(0.4, 0, 1, 1) 0s; opacity: 1;"><div class="home-hero-slide-transition-overlay"></div></div></div></div></div><div class="home-under-hero-section"><div class="content-wrapper"><div class="img-left-section"><div class="home-hero-screenshot-wrapper"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebef4d1ecf5529cf5a75e_BisDev.png" alt="" class="home-hero-screenshot-pipeline" style="transition: opacity 0ms ease 0s; opacity: 1;"></div><div class="features-above-tabs-content home-hero"><div class="margin-80 tablet-margin-48"><h6 class="text-white-70">CRM built into Gmail</h6></div><div class="margin-4"><h2 class="text-white">Keep your pipeline moving</h2></div><div class="margin-16"><p class="text-white">Set up and customize a perfect process for your team no matter the use case or how you work</p></div><div class="margin-16"><ul role="list" class="white-text"><li><p>As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p></li><li><p>Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks</p></li><li><p>See upcoming tasks across all your pipelines</p></li></ul></div><div class="margin-16"><a href="/features" class="button transparent-icon-dark w-inline-block"><div class="button-with-icon-text">View all Features</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt=""></a></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split"></div></div><div id="home-hero-graphic4" class="home-hero-slide w-slide" data-ix="home-hero-animation" aria-label="4 of 7" role="group" style="transform: translateX(-890.4px); opacity: 1; z-index: 381; visibility: hidden;" aria-hidden="true"><div class="margin-80 tablet-margin-48 mobile-margin-16" aria-hidden="true"><div class="content-wrapper" aria-hidden="true"><div class="home-hero-section" aria-hidden="true"><div class="hero-content-left" aria-hidden="true"><div class="margin-48 tablet-margin-24 mobile-margin-40" aria-hidden="true"><div class="home-hero-title-row" aria-hidden="true"><h2 class="h1-to-h2" aria-hidden="true">Manage</h2><div class="home-hero-typed-wrapper" aria-hidden="true"><h2 class="home-hero-text-change h1-to-h2" aria-hidden="true" style="opacity: 1;">investors</h2><div class="home-hero-slide-transition-overlay" aria-hidden="true"></div></div></div><h2 class="h1-to-h2" aria-hidden="true">from Gmail</h2></div><div class="margin-32" aria-hidden="true"><a href="https://mail.google.com" class="button _2-button-spacing cta w-inline-block installed" tabindex="-1" aria-hidden="true">Installed! Go to Gmail ⟶</a><a href="/features" class="button outline w-inline-block" tabindex="-1" aria-hidden="true"><div aria-hidden="true">View Use cases</div></a></div></div><div class="hero-content-right" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd00a0a17b3b463bb46c_fundraising%402x.png" alt="" class="home-hero-graphic" aria-hidden="true" style="transition: all 0.15s cubic-bezier(0.4, 0, 1, 1) 0s; opacity: 1;"><div class="home-hero-slide-transition-overlay" aria-hidden="true"></div></div></div></div></div><div class="home-under-hero-section" aria-hidden="true"><div class="content-wrapper" aria-hidden="true"><div class="img-left-section" aria-hidden="true"><div class="home-hero-screenshot-wrapper" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebef4585945365f45458e_Fundraising.png" alt="" class="home-hero-screenshot-pipeline" aria-hidden="true" style="transition: opacity 0ms ease 0s; opacity: 1;"></div><div class="features-above-tabs-content home-hero" aria-hidden="true"><div class="margin-80 tablet-margin-48" aria-hidden="true"><h6 class="text-white-70" aria-hidden="true">CRM built into Gmail</h6></div><div class="margin-4" aria-hidden="true"><h2 class="text-white" aria-hidden="true">Keep your pipeline moving</h2></div><div class="margin-16" aria-hidden="true"><p class="text-white" aria-hidden="true">Set up and customize a perfect process for your team no matter the use case or how you work</p></div><div class="margin-16" aria-hidden="true"><ul role="list" class="white-text" aria-hidden="true"><li aria-hidden="true"><p aria-hidden="true">As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p></li><li aria-hidden="true"><p aria-hidden="true">Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks</p></li><li aria-hidden="true"><p aria-hidden="true">See upcoming tasks across all your pipelines</p></li></ul></div><div class="margin-16" aria-hidden="true"><a href="/features" class="button transparent-icon-dark w-inline-block" tabindex="-1" aria-hidden="true"><div class="button-with-icon-text" aria-hidden="true">View all Features</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt="" aria-hidden="true"></a></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split" aria-hidden="true"></div></div><div id="home-hero-graphic5" class="home-hero-slide w-slide" data-ix="home-hero-animation" aria-label="5 of 7" role="group" style="transform: translateX(-890.4px); opacity: 1; z-index: 382; visibility: hidden;" aria-hidden="true"><div class="margin-80 tablet-margin-48 mobile-margin-16" aria-hidden="true"><div class="content-wrapper" aria-hidden="true"><div class="home-hero-section" aria-hidden="true"><div class="hero-content-left" aria-hidden="true"><div class="margin-48 tablet-margin-24 mobile-margin-40" aria-hidden="true"><div class="home-hero-title-row" aria-hidden="true"><h2 class="h1-to-h2" aria-hidden="true">Manage</h2><div class="home-hero-typed-wrapper" aria-hidden="true"><h2 class="home-hero-text-change h1-to-h2" aria-hidden="true" style="opacity: 1;">support tickets</h2><div class="home-hero-slide-transition-overlay" aria-hidden="true"></div></div></div><h2 class="h1-to-h2" aria-hidden="true">from Gmail</h2></div><div class="margin-32" aria-hidden="true"><a href="https://mail.google.com" class="button _2-button-spacing cta w-inline-block installed" tabindex="-1" aria-hidden="true">Installed! Go to Gmail ⟶</a><a href="/features" class="button outline w-inline-block" tabindex="-1" aria-hidden="true"><div aria-hidden="true">View Use cases</div></a></div></div><div class="hero-content-right" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd02c5586e132b61921b_support%402x.png" sizes="100vw" srcset="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd02c5586e132b61921b_support%402x-p-500.png 500w, https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd02c5586e132b61921b_support%402x.png 1089w" alt="" class="home-hero-graphic" aria-hidden="true" style="transition: all 0.15s cubic-bezier(0.4, 0, 1, 1) 0s; opacity: 1;"><div class="home-hero-slide-transition-overlay" aria-hidden="true"></div></div></div></div></div><div class="home-under-hero-section" aria-hidden="true"><div class="content-wrapper" aria-hidden="true"><div class="img-left-section" aria-hidden="true"><div class="home-hero-screenshot-wrapper" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebef4585945b57945458f_Support.png" alt="" class="home-hero-screenshot-pipeline" aria-hidden="true" style="transition: opacity 0ms ease 0s; opacity: 1;"></div><div class="features-above-tabs-content home-hero" aria-hidden="true"><div class="margin-80 tablet-margin-48" aria-hidden="true"><h6 class="text-white-70" aria-hidden="true">CRM built into Gmail</h6></div><div class="margin-4" aria-hidden="true"><h2 class="text-white" aria-hidden="true">Keep your pipeline moving</h2></div><div class="margin-16" aria-hidden="true"><p class="text-white" aria-hidden="true">Set up and customize a perfect process for your team no matter the use case or how you work</p></div><div class="margin-16" aria-hidden="true"><ul role="list" class="white-text" aria-hidden="true"><li aria-hidden="true"><p aria-hidden="true">As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p></li><li aria-hidden="true"><p aria-hidden="true">Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks</p></li><li aria-hidden="true"><p aria-hidden="true">See upcoming tasks across all your pipelines</p></li></ul></div><div class="margin-16" aria-hidden="true"><a href="/features" class="button transparent-icon-dark w-inline-block" tabindex="-1" aria-hidden="true"><div class="button-with-icon-text" aria-hidden="true">View all Features</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt="" aria-hidden="true"></a></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split" aria-hidden="true"></div></div><div id="home-hero-graphic6" class="home-hero-slide w-slide" data-ix="home-hero-animation" aria-label="6 of 7" role="group" style="transform: translateX(-890.4px); opacity: 1; z-index: 383; visibility: hidden;" aria-hidden="true"><div class="margin-80 tablet-margin-48 mobile-margin-16" aria-hidden="true"><div class="content-wrapper" aria-hidden="true"><div class="home-hero-section" aria-hidden="true"><div class="hero-content-left" aria-hidden="true"><div class="margin-48 tablet-margin-24 mobile-margin-40" aria-hidden="true"><div class="home-hero-title-row" aria-hidden="true"><h2 class="h1-to-h2" aria-hidden="true">Manage</h2><div class="home-hero-typed-wrapper" aria-hidden="true"><h2 class="home-hero-text-change h1-to-h2" aria-hidden="true" style="opacity: 1;">candidates</h2><div class="home-hero-slide-transition-overlay" aria-hidden="true"></div></div></div><h2 class="h1-to-h2" aria-hidden="true">from Gmail</h2></div><div class="margin-32" aria-hidden="true"><a href="https://mail.google.com" class="button _2-button-spacing cta w-inline-block installed" tabindex="-1" aria-hidden="true">Installed! Go to Gmail ⟶</a><a href="/features" class="button outline w-inline-block" tabindex="-1" aria-hidden="true"><div aria-hidden="true">View Use cases</div></a></div></div><div class="hero-content-right" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd025859457a8c45442e_hiring%402x.png" alt="" class="home-hero-graphic" aria-hidden="true" style="transition: all 0.15s cubic-bezier(0.4, 0, 1, 1) 0s; opacity: 1;"><div class="home-hero-slide-transition-overlay" aria-hidden="true"></div></div></div></div></div><div class="home-under-hero-section" aria-hidden="true"><div class="content-wrapper" aria-hidden="true"><div class="img-left-section" aria-hidden="true"><div class="home-hero-screenshot-wrapper" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebef6585945570f454591_Hiring.png" alt="" class="home-hero-screenshot-pipeline" aria-hidden="true" style="transition: opacity 0ms ease 0s; opacity: 1;"></div><div class="features-above-tabs-content home-hero" aria-hidden="true"><div class="margin-80 tablet-margin-48" aria-hidden="true"><h6 class="text-white-70" aria-hidden="true">CRM built into Gmail</h6></div><div class="margin-4" aria-hidden="true"><h2 class="text-white" aria-hidden="true">Keep your pipeline moving</h2></div><div class="margin-16" aria-hidden="true"><p class="text-white" aria-hidden="true">Set up and customize a perfect process for your team no matter the use case or how you work</p></div><div class="margin-16" aria-hidden="true"><ul role="list" class="white-text" aria-hidden="true"><li aria-hidden="true"><p aria-hidden="true">As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p></li><li aria-hidden="true"><p aria-hidden="true">Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks</p></li><li aria-hidden="true"><p aria-hidden="true">See upcoming tasks across all your pipelines</p></li></ul></div><div class="margin-16" aria-hidden="true"><a href="/features" class="button transparent-icon-dark w-inline-block" tabindex="-1" aria-hidden="true"><div class="button-with-icon-text" aria-hidden="true">View all Features</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt="" aria-hidden="true"></a></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split" aria-hidden="true"></div></div><div id="home-hero-graphic7" class="home-hero-slide w-slide" data-ix="home-hero-animation" aria-label="7 of 7" role="group" style="transform: translateX(-890.4px); opacity: 1; z-index: 384; visibility: hidden;" aria-hidden="true"><div class="margin-80 tablet-margin-48 mobile-margin-16" aria-hidden="true"><div class="content-wrapper" aria-hidden="true"><div class="home-hero-section" aria-hidden="true"><div class="hero-content-left" aria-hidden="true"><div class="margin-48 tablet-margin-24 mobile-margin-40" aria-hidden="true"><div class="home-hero-title-row" aria-hidden="true"><h2 class="h1-to-h2" aria-hidden="true">Manage</h2><div class="home-hero-typed-wrapper" aria-hidden="true"><h2 class="home-hero-text-change h1-to-h2" aria-hidden="true" style="opacity: 1;">buyers &amp; sellers</h2><div class="home-hero-slide-transition-overlay" aria-hidden="true"></div></div></div><h2 class="h1-to-h2" aria-hidden="true">from Gmail</h2></div><div class="margin-32" aria-hidden="true"><a href="https://mail.google.com" class="button _2-button-spacing cta w-inline-block installed" tabindex="-1" aria-hidden="true">Installed! Go to Gmail ⟶</a><a href="/features" class="button outline w-inline-block" tabindex="-1" aria-hidden="true"><div aria-hidden="true">View Use cases</div></a></div></div><div class="hero-content-right" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebd004180d5d59bec89d0_realEstate%402x.png" alt="" class="home-hero-graphic" aria-hidden="true" style="transition: all 0.15s cubic-bezier(0.4, 0, 1, 1) 0s; opacity: 1;"><div class="home-hero-slide-transition-overlay" aria-hidden="true"></div></div></div></div></div><div class="home-under-hero-section" aria-hidden="true"><div class="content-wrapper" aria-hidden="true"><div class="img-left-section" aria-hidden="true"><div class="home-hero-screenshot-wrapper" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9172d5f6623725ea9026bb_pipline-blank.png" alt="" class="home-hero-screenshot-blank" aria-hidden="true"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ebef64180d5336aec8ad8_RealEstate.png" alt="" class="home-hero-screenshot-pipeline" aria-hidden="true" style="transition: opacity 0ms ease 0s; opacity: 1;"></div><div class="features-above-tabs-content home-hero" aria-hidden="true"><div class="margin-80 tablet-margin-48" aria-hidden="true"><h6 class="text-white-70" aria-hidden="true">CRM built into Gmail</h6></div><div class="margin-4" aria-hidden="true"><h2 class="text-white" aria-hidden="true">Keep your pipeline moving</h2></div><div class="margin-16" aria-hidden="true"><p class="text-white" aria-hidden="true">Set up and customize a perfect process for your team no matter the use case or how you work</p></div><div class="margin-16" aria-hidden="true"><ul role="list" class="white-text" aria-hidden="true"><li aria-hidden="true"><p aria-hidden="true">As simple as a spreadsheet — adding, editing, and collaborating is a breeze</p></li><li aria-hidden="true"><p aria-hidden="true">Easily filter, sort, and group your data in any configuration to quickly identify bottlenecks</p></li><li aria-hidden="true"><p aria-hidden="true">See upcoming tasks across all your pipelines</p></li></ul></div><div class="margin-16" aria-hidden="true"><a href="/features" class="button transparent-icon-dark w-inline-block" tabindex="-1" aria-hidden="true"><div class="button-with-icon-text" aria-hidden="true">View all Features</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81897eb40239d96911fa77_button-arrow-white.svg" alt="" aria-hidden="true"></a></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8d623a86d7e6fd0c08c2af_section-split2.svg" alt="" class="home-hero-split" aria-hidden="true"></div></div><div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore=""></div><div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 3 of 7.</div></div><div class="home-hero-slider-arrow w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="previous slide"><div class="w-icon-slider-left"></div></div><div class="home-hero-slider-arrow w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-0" aria-label="next slide" style=""><div class="w-icon-slider-right"></div></div><div class="home-hero-slider-native-nav w-slider-nav w-slider-nav-invert w-round"><div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 1 of 7" aria-selected="false" role="button" tabindex="-1"></div><div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 2 of 7" aria-selected="false" role="button" tabindex="-1"></div><div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 3 of 7" aria-selected="true" role="button" tabindex="0"></div><div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 4 of 7" aria-selected="false" role="button" tabindex="-1"></div><div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 5 of 7" aria-selected="false" role="button" tabindex="-1"></div><div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 6 of 7" aria-selected="false" role="button" tabindex="-1"></div><div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 7 of 7" aria-selected="false" role="button" tabindex="-1"></div></div></div><div class="margin-80 mobile-margin-40"><div class="content-wrapper"><div class="_3-col-row graphic-left-right"><div class="_3-col-graphic-item"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8411d4a1d42ae9462b53cc_autopilot%402x.png" width="304" alt="" class="_3-col-image"><div class="margin-16"><h4>Your pipeline on autopilot</h4><div class="margin-16"><p>Automatically capture data from your contacts and emails. Get notified as things progress through your pipeline by never forgetting a follow-up with tasks and reminders.</p></div></div></div><div class="tablet-margin-32 mobile-margin-24"><div class="_3-col-graphic-item flip"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8411d4934c77402fac9cdd_gmail%402x.png" width="304.5" alt="" class="_3-col-image"><div class="margin-16"><h4>Built into the tools you use</h4><div class="margin-16"><p>Work where you’re comfortable — inside your inbox! &nbsp;Built directly inside of Gmail for desktop and mobile, with G Suite integrations (Sheets, Chat, Drive, and more) to help you access and gather your data quickly.</p></div></div></div></div><div class="tablet-margin-32 mobile-margin-24"><div class="_3-col-graphic-item last"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8411d4627a2dc73db0a60d_hivemind%402x.png" alt="" class="_3-col-image"><div class="margin-16"><h4>A hive-mind for your team</h4><div class="margin-16"><p>Automatically share emails, notes, and call logs with your team so you can pick up where they left off. Access pipeline data alongside your emails and from your pocket so you always have the context you need.</p></div></div></div></div></div><div class="margin-48 tablet-margin-64"><h4 class="tablet-text-align-center mobile-text-align-left">Supercharge your inbox</h4></div><div class="tablet-margin-16"><div class="_3-col-icon-row"><div class="_3-col-icon-item"><div class="_3-col-item-title"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b84177d5a2f43376d86c33c_view-track.svg" alt="" class="icon-24"><p class="p-big text-black-87">View tracking</p></div><div class="margin-4"><div class="_3-col-icon-body"><p>Know instantly when people see your message</p></div></div></div><div class="_3-col-icon-item"><div class="_3-col-item-title"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b84177e636967e5da9c5fdf_mail-merge.svg" alt="" class="icon-24"><p class="p-big text-black-87">Mail merge</p></div><div class="margin-4"><div class="_3-col-icon-body"><p>Send personalized emails to contact groups from your pipelines</p></div></div></div><div class="_3-col-icon-item last"><div class="_3-col-item-title"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b84177d5a2f4331f186c33b_send-later.svg" alt="" class="icon-24"><p class="p-big text-black-87">Send later</p></div><div class="margin-4"><div class="_3-col-icon-body"><p>Schedule emails to be sent at just the right time</p></div></div></div><div class="_3-col-icon-item"><div class="_3-col-item-title"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b84177d04c85d30d1d50210_snippits.svg" alt="" class="icon-24"><p class="p-big text-black-87">Snippets</p></div><div class="margin-4"><div class="_3-col-icon-body"><p>Use a library of frequently written emails shared across your team</p></div></div></div><div class="_3-col-icon-item"><div class="_3-col-item-title"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b84177d9d85dcdb73a32b4d_thread-split.svg" alt="" class="icon-24"><p class="p-big text-black-87">Thread splitter</p></div><div class="margin-4"><div class="_3-col-icon-body"><p>Split conversations into separate email threads when topics start to branch</p></div></div></div><div class="_3-col-graphic-item view-features"><div class="margin-32 tablet-margin-24"><a href="/features#supercharge-inbox" class="button transparent-icon w-inline-block"><div class="button-with-icon-text">LEARN MORE</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8185d792736beeed7dde33_button-arrow.svg" alt=""></a></div></div></div></div><div class="margin-48 text-align-center"><a href="https://mail.google.com" class="button orange-cta cta features-section w-inline-block installed">Installed! Go to Gmail ⟶</a></div></div></div><div class="margin-80 mobile-margin-48"><div class="color-section background-blue-gradient-flip"><div class="content-wrapper"><div class="text-align-center"><h2 class="white-text">750K+ happy users</h2><div class="margin-40 tablet-margin-48"><a href="https://chrome.google.com/webstore/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik/reviews" target="_blank" class="w-inline-block"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81be3046483e66c15e1a5d_star.svg" alt="" class="testimonials-star-icon"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81be3046483e66c15e1a5d_star.svg" alt="" class="testimonials-star-icon"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81be3046483e66c15e1a5d_star.svg" alt="" class="testimonials-star-icon"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81be3046483e66c15e1a5d_star.svg" alt="" class="testimonials-star-icon"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81be2846483e55685e1a5b_starhalf.svg" alt="" class="testimonials-star-icon"></a></div><div class="margin-32"><div class="home-testimopnials-slider-parent"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b84675ba4355bb9a4fdfb26_quote-icon1.svg" alt="" class="home-testimonials-quote-icon-left"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b84675b40f0e18d5d014bbf_quote-icon2.svg" alt="" class="home-testimonial-quote-icon-right"><div data-delay="4400" data-animation="cross" data-autoplay="1" data-disable-swipe="1" data-duration="600" data-infinite="1" class="home-testimonials-slider w-slider" role="region" aria-label="carousel"><div class="home-sliders-mask-prevent-click w-slider-mask" id="w-slider-mask-1"><div class="home-testimonials-slide w-slide" data-ix="home-testimonials-slider" aria-label="1 of 5" role="group" style="transform: translateX(0px); opacity: 1; z-index: 365; transition: opacity 600ms ease 0s;"><div class="home-testimonials-content"><h4 class="home-testimonials-text">Streak was so easy to get started with. I was up and going in about 30 minutes with my pipeline. I love that it is right in my gmail.</h4><div class="margin-24 tablet-margin-40"><div class="home-testimonials-nav"><div class="home-testimonials-active-dot" data-ix="home-testimonials-active-do-init" style="transition: transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s, opacity 200ms ease 0s, transform 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s; opacity: 1; transform: scaleX(1) scaleY(1) scaleZ(1); transform-style: preserve-3d;"><div class="home-testimonials-face face1"></div><div class="home-testimonials-progress-holder"><div class="home-testimonials-progress-bar circle-90" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(90deg); transition: transform 1000ms linear 0s;"></div><div class="home-testimonials-progress-bar circle-180" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(180deg); transition: transform 2000ms linear 0s;"></div><div class="home-testimonials-progress-bar circle-270" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(270deg); transition: transform 3000ms linear 0s;"></div><div class="home-testimonials-progress-bar circle-360" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(360deg); transition: transform 4000ms linear 0s;"></div><div class="home-testimonials-mask" style="opacity: 0;"></div></div></div><div class="home-testimonials-nav-dummy-dot"></div><div class="home-testimonials-nav-dummy-dot"></div><div class="home-testimonials-nav-dummy-dot"></div><div class="home-testimonials-nav-dummy-dot"></div></div></div><div class="margin-8"><p class="text-white text-medium">Reza Shirazi</p></div><div class="margin-4"><div class="home-testimonials-position">Senior Product Manager | AffiniPay</div></div><div class="margin-8"><a href="https://chrome.google.com/webstore/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik/reviews" target="_blank" class="home-testimonials-read-full">View all reviews</a></div></div></div><div class="home-testimonials-slide w-slide" data-ix="home-testimonials-slider" aria-label="2 of 5" role="group" style="transform: translateX(0px); opacity: 1; z-index: 361; visibility: hidden;" aria-hidden="true"><div class="home-testimonials-content" aria-hidden="true"><h4 class="home-testimonials-text" aria-hidden="true">Streak is amazing. It helps me manage my leads and follow through which each one. It brings me up to speed with all my clients and helps me stay organized. Love it!</h4><div class="margin-24 tablet-margin-40" aria-hidden="true"><div class="home-testimonials-nav" aria-hidden="true"><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div><div class="home-testimonials-active-dot" data-ix="home-testimonials-active-do-init" style="transition: transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s, opacity 100ms ease-out 0s, transform 100ms ease-out 0s; opacity: 0; transform: scaleX(0.5) scaleY(0.5) scaleZ(1); transform-style: preserve-3d;" aria-hidden="true"><div class="home-testimonials-face face2" aria-hidden="true"></div><div class="home-testimonials-progress-holder" aria-hidden="true"><div class="home-testimonials-progress-bar circle-90" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-progress-bar circle-180" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-progress-bar circle-270" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-progress-bar circle-360" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-mask" style="opacity: 1;" aria-hidden="true"></div></div></div><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div></div></div><div class="margin-8" aria-hidden="true"><p class="text-white text-medium" aria-hidden="true">Steven Llano</p></div><div class="margin-4" aria-hidden="true"><div class="home-testimonials-position" aria-hidden="true">Consultant |&nbsp;Llano Media LLC</div></div><div class="margin-8" aria-hidden="true"><a href="https://chrome.google.com/webstore/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik/reviews" target="_blank" class="home-testimonials-read-full" tabindex="-1" aria-hidden="true">View all reviews</a></div></div></div><div class="home-testimonials-slide w-slide" data-ix="home-testimonials-slider" aria-label="3 of 5" role="group" style="transform: translateX(0px); opacity: 1; z-index: 362; visibility: hidden;" aria-hidden="true"><div class="home-testimonials-content" aria-hidden="true"><h4 class="home-testimonials-text" aria-hidden="true">I use Streak primarily for my hiring. It allows me to manage people in every stage of the hiring process, continually stay in touch, and keep notes on each person. I could not live without it.</h4><div class="margin-24 tablet-margin-40" aria-hidden="true"><div class="home-testimonials-nav" aria-hidden="true"><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div><div class="home-testimonials-active-dot" data-ix="home-testimonials-active-do-init" style="transition: transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s, opacity 100ms ease-out 0s, transform 100ms ease-out 0s; opacity: 0; transform: scaleX(0.5) scaleY(0.5) scaleZ(1); transform-style: preserve-3d;" aria-hidden="true"><div class="home-testimonials-face face3" aria-hidden="true"></div><div class="home-testimonials-progress-holder" aria-hidden="true"><div class="home-testimonials-progress-bar circle-90" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-progress-bar circle-180" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-progress-bar circle-270" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-progress-bar circle-360" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-mask" style="opacity: 1;" aria-hidden="true"></div></div></div><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div></div></div><div class="margin-8" aria-hidden="true"><p class="text-white text-medium" aria-hidden="true">Shelby Black</p></div><div class="margin-4" aria-hidden="true"><div class="home-testimonials-position" aria-hidden="true">Freelance Journalist</div></div><div class="margin-8" aria-hidden="true"><a href="https://chrome.google.com/webstore/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik/reviews" target="_blank" class="home-testimonials-read-full" tabindex="-1" aria-hidden="true">View all reviews</a></div></div></div><div class="home-testimonials-slide w-slide" data-ix="home-testimonials-slider" aria-label="4 of 5" role="group" style="transform: translateX(0px); opacity: 1; z-index: 363; visibility: hidden;" aria-hidden="true"><div class="home-testimonials-content" aria-hidden="true"><h4 class="home-testimonials-text" aria-hidden="true">Streak is great! It keeps me organized, reminds me when to follow up, and puts all the historical information I need for my client and prospect interactions in one place.</h4><div class="margin-24 tablet-margin-40" aria-hidden="true"><div class="home-testimonials-nav" aria-hidden="true"><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div><div class="home-testimonials-active-dot" data-ix="home-testimonials-active-do-init" style="transition: transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s, opacity 100ms ease-out 0s, transform 100ms ease-out 0s; opacity: 0; transform: scaleX(0.5) scaleY(0.5) scaleZ(1); transform-style: preserve-3d;" aria-hidden="true"><div class="home-testimonials-face face4" aria-hidden="true"></div><div class="home-testimonials-progress-holder" aria-hidden="true"><div class="home-testimonials-progress-bar circle-90" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-progress-bar circle-180" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-progress-bar circle-270" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-progress-bar circle-360" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-mask" style="opacity: 1;" aria-hidden="true"></div></div></div><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div></div></div><div class="margin-8" aria-hidden="true"><p class="text-white text-medium" aria-hidden="true">Becky Schroeder</p></div><div class="margin-4" aria-hidden="true"><div class="home-testimonials-position" aria-hidden="true">Owner |&nbsp;KBS Network Builders</div></div><div class="margin-8" aria-hidden="true"><a href="https://chrome.google.com/webstore/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik/reviews" target="_blank" class="home-testimonials-read-full" tabindex="-1" aria-hidden="true">View all reviews</a></div></div></div><div class="home-testimonials-slide w-slide" data-ix="home-testimonials-slider" aria-label="5 of 5" role="group" style="transform: translateX(0px); opacity: 1; z-index: 364; visibility: hidden;" aria-hidden="true"><div class="home-testimonials-content" aria-hidden="true"><h4 class="home-testimonials-text" aria-hidden="true">I've used it for 2 years now. One of the very few extensions I use on Chrome and probably the most useful one.</h4><div class="margin-24 tablet-margin-40" aria-hidden="true"><div class="home-testimonials-nav" aria-hidden="true"><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div><div class="home-testimonials-nav-dummy-dot" aria-hidden="true"></div><div class="home-testimonials-active-dot" data-ix="home-testimonials-active-do-init" style="transition: transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s, opacity 100ms ease-out 0s, transform 100ms ease-out 0s; opacity: 0; transform: scaleX(0.5) scaleY(0.5) scaleZ(1); transform-style: preserve-3d;" aria-hidden="true"><div class="home-testimonials-face face5" aria-hidden="true"></div><div class="home-testimonials-progress-holder" aria-hidden="true"><div class="home-testimonials-progress-bar circle-90" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-progress-bar circle-180" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-progress-bar circle-270" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-progress-bar circle-360" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);" aria-hidden="true"></div><div class="home-testimonials-mask" style="opacity: 1;" aria-hidden="true"></div></div></div></div></div><div class="margin-8" aria-hidden="true"><p class="text-white text-medium" aria-hidden="true">Ramona Jar</p></div><div class="margin-4" aria-hidden="true"><div class="home-testimonials-position" aria-hidden="true">Medical Marketing Manager |&nbsp;The Medically</div></div><div class="margin-8" aria-hidden="true"><a href="https://chrome.google.com/webstore/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik/reviews" target="_blank" class="home-testimonials-read-full" tabindex="-1" aria-hidden="true">View all reviews</a></div></div></div><div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore=""></div><div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore="">Slide 1 of 5.</div></div><div class="home-testimonials-slider-arrow w-slider-arrow-left" role="button" tabindex="0" aria-controls="w-slider-mask-1" aria-label="previous slide"><div class="w-icon-slider-left"></div></div><div class="home-testimonials-slider-arrow w-slider-arrow-right" role="button" tabindex="0" aria-controls="w-slider-mask-1" aria-label="next slide" style=""><div class="w-icon-slider-right"></div></div><div class="home-testimonials-slider-native-nav w-slider-nav w-round"><div class="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 1 of 5" aria-selected="true" role="button" tabindex="0"></div><div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 2 of 5" aria-selected="false" role="button" tabindex="-1"></div><div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 3 of 5" aria-selected="false" role="button" tabindex="-1"></div><div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 4 of 5" aria-selected="false" role="button" tabindex="-1"></div><div class="w-slider-dot" data-wf-ignore="" aria-label="Show slide 5 of 5" aria-selected="false" role="button" tabindex="-1"></div></div></div></div></div></div></div></div></div><div class="color-section background-gray"><div class="content-wrapper"><div class="team-gray-split-section"><div class="team-gray-split-section-left"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5cabec5b0ca8b5f92ae7ce2e_GGL_Partner-of-the-Year_LogoLockUp-02.png" height="375" sizes="(max-width: 479px) 89vw, (max-width: 767px) 293.375px, (max-width: 991px) 34vw, 293.375px" srcset="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5cabec5b0ca8b5f92ae7ce2e_GGL_Partner-of-the-Year_LogoLockUp-02-p-500.png 500w, https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5cabec5b0ca8b5f92ae7ce2e_GGL_Partner-of-the-Year_LogoLockUp-02.png 780w" alt=""></div><div class="team-gray-split-section-right"><h6>RECOGNIZED&nbsp;BY&nbsp;GOOGLE</h6><div class="margin-8"><h2>Google's Technology Partner of the Year</h2></div><div class="margin-24"><p class="p-big">Streak was announced as Google's <a href="https://cloud.google.com/partners/awards/" target="_blank"><strong>2018 Technology Partner of the Year</strong></a>, in recognition of our fully integrated CRM&nbsp;and deep, powerful integration with all of G Suite - Gmail, Calendar, Drive and Sheets.<br><br>Streak is also a Google Premier Partner. </p></div></div></div><div class="margin-80"></div></div><div class="content-wrapper"><div class="text-align-center"><h6>Used by teams across every industry</h6><div class="margin-40"><div class="trusted-by-logos-wrap"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b7f24cc9009733024d7beee_blue%20apron.png" alt="" class="press-logo blue-apron"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b7f24cc9009737635d7bee4_uber.png" alt="" class="press-logo uber"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b7f24cc9009730b40d7bef8_kellerwilliams.png" height="80" alt="" class="press-logo keller"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5bdb871eb48a03fc44791428_opendoor.png" alt="" class="press-logo opendoor"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b7f24cc900973f004d7bee7_techstars.png" alt="" class="press-logo tech-stars"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b7f24cc9009736b04d7bee5_wework.png" alt="" class="press-logo wework"></div></div></div></div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b81b4943116ce2ce6a4d7ed_googlePartner.png" alt="" class="trusted-by-google-logo"><div class="margin-8"></div><div class="gray-section-line"></div></div><div class="margin-80"><div class="content-wrapper"><h6>Checking all the boxes</h6><div class="margin-4"><h2>We’ve got you covered</h2></div><div class="margin-24 tablet-margin-16 mobile-margin-0"><div class="_3-col-icon-row custom-spacing-bottom"><div class="_3-col-icon-item mobile-margin-32"><div class="_3-col-item-title"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b842449f125df9a5e87d601_web%20mobile.svg" alt="" class="icon-24"><p class="p-big text-black-87">Web and mobile support</p></div><div class="margin-4"><div class="_3-col-icon-body"><p>Native Android and iOS apps and directly built into Gmail on web and mobile</p></div></div></div><div class="_3-col-icon-item mobile-margin-32"><div class="_3-col-item-title"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b84244980126b018fd1aa8e_integrations.svg" alt="" class="icon-24"><p class="p-big text-black-87">Comprehensive integrations</p></div><div class="margin-4"><div class="_3-col-icon-body"><p>Our open API integrates with G Suite and Zapier to connect your Streak to everything you need</p></div></div></div><div class="_3-col-icon-item last tablet-margin-40 mobile-margin-32"><div class="_3-col-item-title"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b842449e5308eeee2ab03e4_security.svg" alt="" class="icon-24"><p class="p-big text-black-87">Rigorous security and privacy</p></div><div class="margin-4"><div class="_3-col-icon-body"><p>Built in the same cloud as Gmail and G Suite and GDPR compliant</p></div></div></div></div></div></div></div><div class="margin-80 mobile-margin-32"><div data-w-id="59895abf-3a2f-5bea-1b5d-f0f577a6b602" class="preefooter-wrapper"><div class="color-section background-blue-gradient pre-footer"><div class="prefooter-content-wrapper"><div class="content-wrapper"><h2 class="text-white">Try it for free.</h2><h2 class="text-white">It only takes 30 seconds to get started.</h2><div class="margin-32"><a href="https://mail.google.com" class="button orange-cta cta w-inline-block installed">Installed! Go to Gmail ⟶</a></div></div></div><div data-w-id="19d5fe9a-e664-5797-c48d-864d2a0c0df8" class="prefooter-shapes-background" style="will-change: transform; transform: translate3d(0px, 24px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"></div></div><div class="prefooter-careers-bar"><div class="content-wrapper"><div class="prefooter-careers-content"><div class="prefooter-careers-content-left"><h4 class="white-text">We're hiring</h4></div><div class="prefooter-careers-content-center"><p class="p-big text-white">Come build something great with us.</p></div><div class="prefooter-careers-content-right"><a href="http://www.streak.com/careers" class="button outline-dark rounded w-inline-block"><div>View Positions</div></a></div></div></div></div></div></div><div class="footer"><div class="margin-80 tablet-margin-0"><div class="content-wrapper"><div class="footer-row-joe"><div class="footer-row-links"><div class="footer-row-links-col"><h6 class="text-black-87">Company</h6><div class="margin-8"><div class="footer-links-flex"><a href="http://www.streak.com/about" class="footer-link-joe">About us</a><a href="http://www.streak.com/careers" class="footer-link-joe">Careers</a><a href="https://blog.streak.com/" class="footer-link-joe">Blog</a><a href="http://www.streak.com/privacy" class="footer-link-joe">Privacy</a><a href="http://www.streak.com/security" class="footer-link-joe">Security</a><a href="http://www.streak.com/terms" class="footer-link-joe">Terms</a></div></div></div><div class="footer-row-links-col"><h6 class="text-black-87">Resources</h6><div class="margin-8"><div class="footer-links-flex"><a href="http://support.streak.com/" class="footer-link-joe">Help</a><a href="http://status.streak.com/" class="footer-link-joe">Status</a><a href="https://streak.readme.io/" class="footer-link-joe">API docs</a><a href="https://www.youtube.com/channel/UCHfaW2ql2oR4vjZvgkwicCw" class="footer-link-joe">YouTube</a><a href="https://support.streak.com/en/articles/4178004-referral-program" target="_blank" class="footer-link-joe">Referral program</a><a href="https://streak.growsumo.com/" target="_blank" class="footer-link-joe">Affiliate program</a><a href="http://www.streak.com/contact-sales" class="footer-link-joe">Contact us</a></div></div></div><div class="footer-row-links-col"><h6 class="text-black-87">Use Cases</h6><div class="margin-8"><div class="footer-links-flex"><a href="http://www.streak.com/for/sales-crm-inside-google-gmail" class="footer-link-joe">Sales</a><a href="http://www.streak.com/for/product-development-management-inside-google-gmail" class="footer-link-joe">Project management</a><a href="http://www.streak.com/for/partnerships-crm-inside-google-gmail" class="footer-link-joe">Business partners</a><a href="http://www.streak.com/for/startup-fundraising-management-inside-google-gmail" class="footer-link-joe">Fundraising</a><a href="http://www.streak.com/for/email-support-software-inside-google-gmail" class="footer-link-joe">Support</a><a href="http://www.streak.com/for/hiring-ats-inside-google-gmail" class="footer-link-joe">Hiring</a><a href="http://www.streak.com/for/real-estate-crm-inside-google-gmail" class="footer-link-joe">Real estate</a></div></div></div><div class="footer-row-links-col"><h6 class="text-black-87">Features</h6><div class="margin-8"><div class="footer-links-flex"><a href="http://www.streak.com/for/email-tracking-in-gmail" class="footer-link-joe">View tracking</a><a href="http://www.streak.com/for/mail-merge-using-gmail" class="footer-link-joe">Mail merge</a><a href="http://www.streak.com/for/send-later-scheduled-gmail" class="footer-link-joe">Send later</a><a href="http://www.streak.com/for/canned-gmail-snippets" class="footer-link-joe">Snippets</a><a href="http://www.streak.com/for/split-gmail-conversation-threads-break" class="footer-link-joe">Thread splitter</a></div></div></div></div><div class="footer-app-download-wrapper"><a href="https://itunes.apple.com/app/streak-crm-for-gmail/id674067680" target="_blank" class="footer-app-download-link space-bottom w-inline-block"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b847e6592a6e4182d2d19b4_ios-app-store.svg" alt="" class="footer-app-download-ios"></a><a href="https://play.google.com/store/apps/details?id=com.mobile.streak" target="_blank" class="footer-app-download-link w-inline-block"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b847e605a7238440c062d1a_google-play-icon.svg" alt="" class="footer-app-download-android"></a></div></div><div class="margin-48"><div class="footer-row-bottom text-align-center"><div class="footer-row-social-links"><a href="https://twitter.com/streak" target="_blank" class="footer-social-link w-inline-block"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b847eaf5a72387b16062e35_twitter.svg" alt="" class="footer-social-icon"></a><a href="https://www.facebook.com/streakgmail/" target="_blank" class="footer-social-link w-inline-block"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b847eaf7e74c8da79e2f3d1_facebook.svg" alt="" class="footer-social-icon"></a><a href="https://linkedin.com/company/streak-com" target="_blank" class="footer-social-link w-inline-block"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b847eb020aa0104b91ee52d_linkedin.svg" alt="" class="footer-social-icon"></a></div><div class="margin-24"><div class="footer-copyright-terms">© 2011-2020 Rewardly, Inc. </div><div class="footer-copyright-terms">Gmail is a registered trademark of Google. Streak is a Google Premier Partner.</div><div class="footer-copyright-terms"><a href="http://www.streak.com/privacy">Privacy</a> &nbsp;| &nbsp;<a href="http://www.streak.com/privacy">Terms of Service</a></div></div></div><div class="margin-80"></div></div></div></div></div><div class="popup-wrapper master" style="display: none;"><div class="popup-modal-background"></div><div class="popup-modal"><div class="popup-content-top"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8178bf2b7a395d50b3d0be_Streak-logo.svg" alt=""><div class="popup-x-wrapper"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ab2d7012ec358cdc62202_close.svg" alt=""></div></div><div class="popup-container-flex"><div class="popup-container-relative"><div class="popup-container-absolute" style="display: none;"><div class="popup-content-body available-safari hide"><div class="popup-content-center"><a href="https://safari-extensions.apple.com/details/?id=com.rewardly.streak-D893858BLJ" class="popup-available-in-edge-link w-inline-block"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9c2640e60a71c9446c19b9_safari%20(2).png" alt="" class="popup-webstore-icon"></a><div class="margin-16"><div class="intermediate-progress-embed w-embed"><div class="popup slider">
+	 <div class="popup line"></div>
+  <div class="popup subline inc"></div>
+  <div class="popup subline dec"></div>
+</div>
+<style>
+.popup.slider{
+  position:absolute;
+  width:112px;
+  height:4px;
+  overflow-x: hidden;
+}
+
+.popup.line{
+  position:absolute;
+  opacity: 0.24;
+  background:#3f51b5;
+  width:200%;
+  height:4px;
+}
+
+.popup.subline{
+  position:absolute;
+  background:#3f51b5;
+  height:4px; 
+}
+.inc{
+animation: increase 2s infinite;
+}
+.dec{
+animation: decrease 2s 0.5s infinite;
+}
+
+@keyframes increase {
+ from { left: -5%; width: 5%; }
+ to { left: 130%; width: 100%;}
+}
+@keyframes decrease {
+ from { left: -80%; width: 80%; }
+ to { left: 110%; width: 10%;}
+}
+</style></div></div></div><div class="popup-content-footer"><p>Opening...</p></div></div></div><div class="popup-container-absolute" style="display: none;"><div class="popup-content-body available-safari hide"><div class="popup-content-center"><a href="https://safari-extensions.apple.com/details/?id=com.rewardly.streak-D893858BLJ" class="popup-available-in-edge-link w-inline-block"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9c2640e60a71c9446c19b9_safari%20(2).png" alt="" class="popup-webstore-icon"></a><div class="margin-16"><div class="intermediate-progress-embed w-embed"><div class="popup slider">
+	 <div class="popup line"></div>
+  <div class="popup subline inc"></div>
+  <div class="popup subline dec"></div>
+</div>
+<style>
+.popup.slider{
+  position:absolute;
+  width:112px;
+  height:4px;
+  overflow-x: hidden;
+}
+
+.popup.line{
+  position:absolute;
+  opacity: 0.24;
+  background:#3f51b5;
+  width:200%;
+  height:4px;
+}
+
+.popup.subline{
+  position:absolute;
+  background:#3f51b5;
+  height:4px; 
+}
+.inc{
+animation: increase 2s infinite;
+}
+.dec{
+animation: decrease 2s 0.5s infinite;
+}
+
+@keyframes increase {
+ from { left: -5%; width: 5%; }
+ to { left: 130%; width: 100%;}
+}
+@keyframes decrease {
+ from { left: -80%; width: 80%; }
+ to { left: 110%; width: 10%;}
+}
+</style></div></div></div><div class="popup-content-footer"><p>Opening...</p></div></div></div><div class="popup-container-absolute" style="display: none;"><div class="popup-content-body add-to-safari hide"><div class="popup-content-center"><a href="https://safari-extensions.apple.com/details/?id=com.rewardly.streak-D893858BLJ" target="_blank" class="popup-available-in-edge-link w-inline-block"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9c2640e60a71c9446c19b9_safari%20(2).png" alt="" class="popup-webstore-icon"></a></div><div class="popup-content-footer"><div class="popup-install-text-link-wrapper"><p>Click "Install now" in the</p><a href="https://safari-extensions.apple.com/details/?id=com.rewardly.streak-D893858BLJ" target="_blank" class="popup-chrome-webstore-text-link w-inline-block"><div>Safari Extension Gallery</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ab2d6012ec3f57cc62201_arrow.svg" alt="" class="popup-chrome-website-text-link-icon"></a></div></div></div></div><div class="popup-container-absolute" style="display: none;"><div class="popup-content-body opening-gmail hide" style="display: none;"><div class="popup-content-center"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8c3cb3b8c5084b59fc035f_Gmail-icon.svg" alt="" class="popup-gmail-icon"><div class="margin-16"><div class="popup-load-bar"><div class="gmail-3-second-timer"></div></div></div></div><div class="popup-content-footer"><p>Taking you to Gmail...</p><div class="w-embed"><style>
+.gmail-start {
+  width:100%;
+  -webkit-transition: width 3s linear;
+   transition: width 3s linear;
+}
+</style></div></div></div></div><div class="popup-container-absolute" style="display: none;"><div class="popup-content-body success hide"><div class="popup-content-center"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ab2d6902f3d8cb7a6c7f3_checkCircle.svg" alt="" class="popup-success-check"></div><div class="popup-content-footer"><p>Install successful</p><div class="w-embed"><style>
+.gmail-start {
+  width:100%;
+  -webkit-transition: width 3s linear;
+   transition: width 3s linear;
+}
+</style></div></div></div></div><div class="popup-container-absolute" style="display: none;"><div class="popup-content-body waiting-install hide"><div class="popup-content-center"><div class="popup-spinner-height"><div class="popup-spinner-embed w-embed"><style>
+.loader-icon {
+	width: 80px;
+  height: 80px;
+}
+</style>
+<svg class="loader-icon" version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+    <path fill="#3F51B5" d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="1s" from="0 50 50" to="360 50 50" repeatCount="indefinite"></animateTransform>
+  </path>
+</svg></div></div></div><div class="popup-content-footer"><p>Waiting for install...</p><div class="w-embed"><style>
+.gmail-start {
+  width:100%;
+  -webkit-transition: width 3s linear;
+   transition: width 3s linear;
+}
+</style></div></div></div></div><div class="popup-container-absolute" style="display: none;"><div class="popup-content-body add-to-chrome hide"><div class="popup-content-center"><a href="https://chrome.google.com/webstore/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik?hl=en" target="_blank" class="popup-available-in-edge-link w-inline-block"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b9c26422e74d74fcd99f6ad_chrome.png" alt="" class="popup-webstore-icon"></a></div><div class="popup-content-footer"><div class="popup-install-text-link-wrapper"><p>Install by clicking the blue “Add to Chrome” button in the</p><a href="https://chrome.google.com/webstore/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik?hl=en" target="_blank" class="popup-chrome-webstore-text-link w-inline-block"><div>Chrome Web Store</div><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5b8ab2d6012ec3f57cc62201_arrow.svg" alt="" class="popup-chrome-website-text-link-icon"></a></div></div></div></div><div class="popup-container-absolute" style="display: none;"><div class="popup-content-body not-supported hide"><div class="popup-content-center form-stretch"><p>Sorry, Streak currently only supports Google Chrome, Safari, and Microsoft Edge.<br>Sign up to be notified when support is available for your browser.</p><div class="margin-24"><div class="w-form"><form id="wf-form-Not-Supported-Form" name="wf-form-Not-Supported-Form" data-name="Not Supported Form" class="popup-not-supported-form"><input type="text" class="popup-not-supported-text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Enter your email" id="email-2" required=""><input type="submit" value="Submit" data-wait="Please wait..." class="button popup-not-supported w-button"></form><div class="background-primary-dark text-white w-form-done"><div>Thank you! We'll let you know when it's available for other platforms!</div></div><div class="w-form-fail"></div></div></div></div></div></div><div class="popup-container-absolute" style="display: none;"><div class="popup-content-body add-to-edge hide"><div class="popup-content-center form-stretch"><a href="https://microsoftedge.microsoft.com/addons/detail/gjfnhcobilifnmokegginjeenmlmlccn?hl=en-US" class="popup-available-in-edge-link w-inline-block"><img src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/5e6ae9669bbe26cd37fe0043_edge.png" alt="" class="popup-webstore-icon"></a><div class="margin-16"><div class="intermediate-progress-embed w-embed"><div class="popup slider">
+	 <div class="popup line"></div>
+  <div class="popup subline inc"></div>
+  <div class="popup subline dec"></div>
+</div>
+<style>
+.popup.slider{
+  position:absolute;
+  width:112px;
+  height:4px;
+  overflow-x: hidden;
+}
+
+.popup.line{
+  position:absolute;
+  opacity: 0.24;
+  background:#3f51b5;
+  width:200%;
+  height:4px;
+}
+
+.popup.subline{
+  position:absolute;
+  background:#3f51b5;
+  height:4px; 
+}
+.inc{
+animation: increase 2s infinite;
+}
+.dec{
+animation: decrease 2s 0.5s infinite;
+}
+
+@keyframes increase {
+ from { left: -5%; width: 5%; }
+ to { left: 130%; width: 100%;}
+}
+@keyframes decrease {
+ from { left: -80%; width: 80%; }
+ to { left: 110%; width: 10%;}
+}
+</style></div></div></div><div class="popup-content-footer"><p>Opening...</p></div></div></div></div></div></div></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5b7f24cc9009731774d7be8e" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://assets-global.website-files.com/5b7f24cc9009731774d7be8e/js/streak-newbuild.a3056ecaa.js" type="text/javascript"></script><!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]--><script src="https://storage.googleapis.com/static.streak.com/webflow/webflow.min.js"></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N45CMH4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- Google Analytics event tracking in Webflow -->
+<!-- https://forum.webflow.com/t/implementing-google-analytics/58962/4 -->
+<script>
+    $(document).ready(function() {      
+      $(document).on('click', '[data-gatrack]', function(e) {
+
+        var $link = $(this);
+                var commaSeperatedEventData = $link.data('gatrack');
+                var eventParams = commaSeperatedEventData.split(',');
+
+                if (!eventParams) { return; }
+
+                eventCategory = eventParams[0]
+                eventAction = eventParams[1]
+                eventValue = eventParams[2]
+
+                ga('send', {
+                               hitType: 'event',
+                               eventCategory: eventCategory,
+                               eventAction: eventAction,
+                               eventLabel: eventValue
+                });
+          
+      });
+    });
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+
+
+<script>
+$(document).ready(function() {
+	$('.home-sliders-mask-prevent-click').mousedown(function(e) {
+		e.stopImmediatePropagation();
+	});
+  $('.home-sliders-mask-prevent-click').on('touchstart', (e) => {
+  	e.stopImmediatePropagation();
+  });    
+	$('.home-testimonials-slider-native-nav').click(function() {
+  	$('.home-testimonials-progress-bar').css('display', 'none');
+  });
+  
+  const mySwiper = new Swiper ('.swiper-container', {
+    effect: 'fade',
+    fadeEffect: {
+    	crossFade: false
+  	},
+    autoplay: true,
+    speed: 450,
+    touchRatio: 0,
+    disableOnInteraction: false,
+    noSwipingSelector: 'input',
+    noSwiping: true,
+    simulateTouch: false,
+    shortSwipes: false,
+    longSwipes: false,
+    allowTouchMove: false,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    }
+  });
+  
+  let [$leads, $projects, $partners, $investors, $support_tickets, 
+  $candidates, $buyers_sellers] = 
+  ['#leads', '#projects', '#partners', '#investors', '#support_tickets', 
+  '#candidates', '#buyers_sellers'];
+  
+  const homeHeroGraphic = $('.home-hero-graphic');  
+  
+  let swiperBulletClicked = true; 
+	const swiperBullet = $('.swiper-pagination-bullet'); 
+	swiperBullet.on('click', function(){
+  	swiperBulletClicked = false;
+    const currentBullet = swiperBullet.index(this);
+    const nthChildNum = currentBullet + 1;
+    
+    homeHeroGraphic.removeClass('home-hero-graphic-change');	// remove class from other home-hero graphics
+    homeHeroGraphic.eq(currentBullet).addClass('home-hero-graphic-change');	// add to current home-hero graphic
+    
+    const element = $(this).closest('.swiper-pagination')
+    .prev('.home-slider')
+    .children(':nth-child('+nthChildNum+')')
+    .find('.home-hero-text-change');
+    const elemId = element.attr('id');    
+    let typedString = elemId.replace(/_/,' ');
+    if(elemId === 'buyers_sellers'){typedString = 'buyers & sellers'}
+    
+    runTyped('#'+elemId, [typedString]);
+    $('#'+elemId).text('');	// clear text left in by typed
+  });
+  
+  mySwiper.on('slideChange', function(e) {
+  	if(swiperBulletClicked){	
+  		homeHeroGraphic.removeClass('home-hero-graphic-change');	// remove class on every slide change    
+  		if(mySwiper.activeIndex === 0){
+  			runTyped($leads, ['leads','']); // empty string triggers backspace
+      	homeHeroGraphic.eq(0).addClass('home-hero-graphic-change');
+    	}
+    	else if(mySwiper.activeIndex === 1){
+  			runTyped($projects, ['projects','']);
+      	homeHeroGraphic.eq(1).addClass('home-hero-graphic-change');
+    	}
+    	else if(mySwiper.activeIndex === 2){
+  			runTyped($partners, ['partners','']);
+      	homeHeroGraphic.eq(2).addClass('home-hero-graphic-change');
+    	}
+    	else if(mySwiper.activeIndex === 3){
+  			runTyped($investors, ['investors','']);
+      	homeHeroGraphic.eq(3).addClass('home-hero-graphic-change');
+    	}
+    	else if(mySwiper.activeIndex === 4){
+  			runTyped($support_tickets, ['support tickets','']);
+      	homeHeroGraphic.eq(4).addClass('home-hero-graphic-change');
+    	}
+    	else if(mySwiper.activeIndex === 5){
+  			runTyped($candidates, ['candidates','']);
+      	homeHeroGraphic.eq(5).addClass('home-hero-graphic-change');
+    	}
+    	else if(mySwiper.activeIndex === 6){
+  			runTyped($buyers_sellers, ['buyers & sellers','']);
+      	homeHeroGraphic.eq(6).addClass('home-hero-graphic-change');
+    	}
+    }
+  });
+  
+  runTyped($leads, ['leads','']); // run typed on swiper init
+ 
+ 	function runTyped(elem, stringArr){
+  	$(elem).typed({ 
+  		strings: stringArr,
+    	stringsElement: null,
+  		typeSpeed: 60,
+    	startDelay: 100,
+      backDelay: 1200,
+      backSpeed: 40,
+      showCursor: false,	// using custom cursor defined in css
+      cursorChar: '|',
+    	loop: false,
+    	attr: null,
+    	contentType: 'text'
+		});
+    $(elem).removeData('typed'); // allow typed to run again
+  }
+
+});  
+</script>
+
+<iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;" aria-hidden="true" tabindex="-1" title="Intercom"></iframe><div class="intercom-lightweight-app" aria-live="polite"><div class="intercom-lightweight-app-launcher intercom-launcher" role="button" tabindex="0" aria-label="Open Intercom Messenger"><div class="intercom-lightweight-app-launcher-icon intercom-lightweight-app-launcher-icon-open"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 32"><path d="M28 32s-4.714-1.855-8.527-3.34H3.437C1.54 28.66 0 27.026 0 25.013V3.644C0 1.633 1.54 0 3.437 0h21.125c1.898 0 3.437 1.632 3.437 3.645v18.404H28V32zm-4.139-11.982a.88.88 0 00-1.292-.105c-.03.026-3.015 2.681-8.57 2.681-5.486 0-8.517-2.636-8.571-2.684a.88.88 0 00-1.29.107 1.01 1.01 0 00-.219.708.992.992 0 00.318.664c.142.128 3.537 3.15 9.762 3.15 6.226 0 9.621-3.022 9.763-3.15a.992.992 0 00.317-.664 1.01 1.01 0 00-.218-.707z"></path></svg></div><div class="intercom-lightweight-app-launcher-icon intercom-lightweight-app-launcher-icon-minimize"><svg viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M.116 4.884l1.768-1.768L8 9.232l6.116-6.116 1.768 1.768L8 12.768.116 4.884z"></path></svg></div></div><style id="intercom-lightweight-app-style" type="text/css">
+  @keyframes intercom-lightweight-app-launcher {
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes intercom-lightweight-app-gradient {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes intercom-lightweight-app-messenger {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .intercom-lightweight-app {
+    position: fixed;
+    z-index: 2147483001;
+    width: 0;
+    height: 0;
+    font-family: intercom-font, "Helvetica Neue", "Apple Color Emoji", Helvetica, Arial, sans-serif;
+  }
+
+  .intercom-lightweight-app-gradient {
+    position: fixed;
+    z-index: 2147483002;
+    width: 500px;
+    height: 500px;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    background: radial-gradient(
+      ellipse at bottom right,
+      rgba(29, 39, 54, 0.16) 0%,
+      rgba(29, 39, 54, 0) 72%);
+    animation: intercom-lightweight-app-gradient 200ms ease-out;
+  }
+
+  .intercom-lightweight-app-launcher {
+    position: fixed;
+    z-index: 2147483003;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #3b4ba8;
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06), 0 2px 32px 0 rgba(0, 0, 0, 0.16);
+    animation: intercom-lightweight-app-launcher 250ms ease;
+  }
+
+  .intercom-lightweight-app-launcher:focus {
+    outline: none;
+    
+  }
+
+  .intercom-lightweight-app-launcher-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transition: transform 100ms linear, opacity 80ms linear;
+  }
+
+  .intercom-lightweight-app-launcher-icon-open {
+    
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-open svg {
+    width: 28px;
+    height: 32px;
+  }
+
+  .intercom-lightweight-app-launcher-icon-open svg path {
+    fill: rgb(255, 255, 255);
+  }
+
+  .intercom-lightweight-app-launcher-icon-self-serve {
+    
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-self-serve svg {
+    height: 56px;
+  }
+
+  .intercom-lightweight-app-launcher-icon-self-serve svg path {
+    fill: rgb(255, 255, 255);
+  }
+
+  .intercom-lightweight-app-launcher-custom-icon-open {
+    max-height: 36px;
+    max-width: 36px;
+    
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-minimize {
+    
+        opacity: 0;
+        transform: rotate(-60deg) scale(0);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-minimize svg {
+    width: 16px;
+  }
+
+  .intercom-lightweight-app-launcher-icon-minimize svg path {
+    fill: rgb(255, 255, 255);
+  }
+
+  .intercom-lightweight-app-messenger {
+    position: fixed;
+    z-index: 2147483003;
+    overflow: hidden;
+    background-color: white;
+    animation: intercom-lightweight-app-messenger 250ms ease-out;
+    
+        width: 376px;
+        height: calc(100% - 120px);
+        max-height: 704px;
+        min-height: 250px;
+        right: 20px;
+        bottom: 100px;
+        box-shadow: 0 5px 40px rgba(0,0,0,0.16);
+        border-radius: 8px;
+      
+  }
+
+  .intercom-lightweight-app-messenger-header {
+    height: 75px;
+    background: linear-gradient(
+      135deg,
+      rgb(94, 117, 209) 0%,
+      rgb(45, 67, 156) 100%
+    );
+  }
+
+  @media print {
+    .intercom-lightweight-app {
+      display: none;
+    }
+  }
+</style></div></body>
+                
+                </div>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        
+                
+        
+    )
+};
+
+export default Header
